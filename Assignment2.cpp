@@ -1,4 +1,4 @@
-//Author: Kassim Izuagbe; 100129353;
+//Author: Kassim Izuagbe;
 //Purpose: Generates a collection of diamonds at random locations;
 
 #include <GL/glut.h>
@@ -52,7 +52,7 @@ int main(int argc, char** argv)
     glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
     glutInitWindowPosition (530, 290);
     glutInitWindowSize (400, 400);
-    glutCreateWindow ("Assignment 2");
+    glutCreateWindow ("Equilateral Diamonds");
     init ();
     glutDisplayFunc (display);
     glutMainLoop ( );
