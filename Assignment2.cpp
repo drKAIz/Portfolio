@@ -23,10 +23,10 @@ void drawDiamond(GLintPoint center, GLint length)
 {
 	
 	glBegin (GL_LINE_LOOP);
-		glVertex2i((center.x)-(length/2), center.y);
-		glVertex2i(center.x, (center.y)-(length/2));
-		glVertex2i((center.x)+(length/2), center.y);
-		glVertex2i(center.x, (center.y)+(length/2));
+		glVertex2i(((center.x)-(length/2)), center.y);
+		glVertex2i(center.x, ((center.y)-(length/2)));
+		glVertex2i(((center.x)+(length/2)), center.y);
+		glVertex2i(center.x, ((center.y)+(length/2)));
 	glEnd();
 }
 
