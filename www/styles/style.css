@@ -1,0 +1,148 @@
+html
+{
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #FFF8E7;
+}
+.header
+{
+    overflow: hidden;
+    background-color: #f1f1f1
+    padding: 20px 10px;
+}
+ul.header-right
+{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.header li a
+{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+ul.header-right li a:hover
+{
+    background-color: #d87f02;
+    color: #565454;
+}
+ul.header-right li a.active
+{
+    background-color: #565454;
+    color: white;
+}
+ul.header-right li
+{
+    float: left;
+}
+
+/* @media screen and (max-width: 479px)
+{
+    .header
+    {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    ul.header-right li
+    {
+        float: none;
+    }
+} */
+h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+.body, p.follow, p.music
+{
+    font-size: 17px;
+}
+.header
+{
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img
+{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  padding-top: 20px;
+}
+
+footer
+{
+    font-size: 11px;
+    position: relative;
+    bottom: 0;
+    display: block;
+    align-items: center;
+    clear: left;
+}
+p.awe a:link
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00539F;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+.picture
+{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+table#t01
+{
+    text-align: center;
+    border: 2px solid #565454;
+}
+table#t02
+{
+    text-align: center;
+    border: 2px solid #565454;
+}
+th, td
+{
+    padding: 11px;
+    border: 2px solid #565454;
+}
+.album
+{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 21px;
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+.me
+{
+    clear: left;
+}
+p.disclaimer
+{
+    font-size: 12px;
+}
