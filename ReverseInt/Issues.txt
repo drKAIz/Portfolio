@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------------
+Kassim Izuagbe;
+
+ReverseInt.c Issues.
+------------------------------------------------------------------------------------------------
+
+0-2147483641 is the range of numbers accepted.
+
+Negative non-integer numbers do not work well
+
+Numbers ending in zeroes, when reversed, do not display the beginning zeroes. i.e '25700' reversed will output '752', rather than '00725'.
+
+
+
