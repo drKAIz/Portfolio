@@ -1,0 +1,1 @@
+This program is an implementation of the stack data structure. Values can be "pushed" onto or "popped" off the stack.
